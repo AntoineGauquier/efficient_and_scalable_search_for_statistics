@@ -1,0 +1,101 @@
+question_id,question,table_id
+0,"In 2013, how much of Israel's total gross value added was accounted for by services?",enpe_nama_10_a10
+1,What proportion of investment credits was allocated to public educational establishments in France in 2018?,educ_uoe_fini05
+2,"In 2015, what was the Gini index among Irish family units for spending?",icw_sr_05
+3,How many euros were invested in independent retirement funds in Switzerland in 2006?,sbs_pen_7c
+4,"In 2006, what was the total number of aircraft used for freight transport in Algerian commercial aviation?",enps_avia_typ
+5,"What was Hungary's gross value added in the first quarter of 2022, according to NACE?",teina432_r2
+6,How many law enforcement personnel were there in Romania in 2001?,crim_plce
+7,How much powdered milk was produced in Croatia in 2015?,tag00039
+8,How many environmentally harmful vehicles were there in Tunisia in 2007?,med_en3
+9,"In 2021, what fraction of women in Serbia disclosed non-partner abuses to healthcare or social agencies?",gbv_npv_rp
+10,What was the performance of domestic bus transport in Czechia in 2004?,road_pa_mov
+11,"In 2020, how many people in North Macedonia borrowed money for their day-to-day spendings with a poverty risk exceeding sixty percents?",ilc_odbt08
+12,How many people submitted a reapplication for asylum in Hungary in 2021?,tps00191
+13,"In 2017, what proportion of the Noord-Holland's inhabitants faced the danger of poverty or being socially marginalized?",tgs00107
+14,How much revenue from product-related taxes did EU bodies report in their non-financial accounts for 2021?,gov_eu_nfa
+15,How many private cars aged from ten to twenty were there in Croatia in 2013?,road_eqs_carage
+16,What fraction of the polutation in Latvia lacked sanitary amenities in 2011?,sdg_06_10
+17,"In 2015, what share of family units within the 27-nation European Union spent more than their income?",icw_pov_03
+18,What proportion of people aged 25 to 34 in Portugal had no more than a lower secondary education in 2023?,tps00197
+19,What share of Austria's population lacked access to showering facilities in 2014?,tessi293
+20,What was the price of sugar beet in France in euros during 2016?,tag00064
+21,How many hours were spent on non-formal instruction in the industrial sector in Slovakia in 2003?,trng_nfe13
+22,What proportion of Israel's population had access to urban sewage processing facilities in 2013?,enps_env_ww_con
+23,What was the freight train traffic on the Lucenec - Filakovo segment in Slovakia in 2015?,rail_tf_ns15_sk
+24,What was the typical amount spent by Italians per overnight stay in euros in 2016?,tin00196
+25,"In 2017, how many minors in Croatia faced the risk of poverty or social marginalization?",ilc_pecs01
+26,What was the poverty risk rate for financially stable adults aged 25 to 59 in Austria in 2011?,ilc_igtp04
+27,"In Hungary, what was the mean classroom size at ISCED 1 schooling in 2004?",educ_iste
+28,What fraction of Germans were at risk of poverty after receiving social benefits in 2005?,tipslc20
+29,What was the value of goods exported from the Euro area to the U.S. in 2023?,tet00065
+30,"How overcrowded is the population in Malta in 2020, excluding single-person family units?",tessi176
+31,How many tonnes of cargo passed through the main harbors of Denmark in the second quarter of 2022?,mar_qg_qm_cwh
+32,"By how much did the export service trade ratio of Luxembourg shift over five years, as of 2000?",tipsna30
+33,What export unit value index did Greece report in 2016?,tet00028
+34,"In 2019, what share of family units in North Macedonia were unemployed?",tps00182
+35,What was the median revenue of senior people in France in 2017?,tespn020
+36,How much freight was moved within Luxembourg in 2010?,rail_go_total
+37,How many medical graduates pursued dentistry in Greece in 2013?,hlth_rs_grd2$dv_2825
+38,How many Finnish businesses ceased operations overseas in 2018?,iss_18bfmmag
+39,How many international firms from EU-EFTA nations were based in the European Union of 27 in 2021?,egr_mne
+40,How many commercial planes aged twenty years or older were recorded in Finland in 2008?,avia_eq_arc_agereg
+41,What was the quarterly interest rate in Italy in the first quarter of 1996?,irt_h_mr3_q
+42,What was the HICP value for various products and services in the U.S. in June 2024?,teicp120
+43,What is the median age of people living in Portugal who were born in other EU27 countries in 2023?,demo_popmdctb
+44,"What was the wage disparity between men and women aged 45 to 54 in Poland in 2020, based on the income survey methodology?",earn_gr_gpgr2ag
+45,What share of rural family units in Morocco had secured property rights in 2014?,enps_ilc_secure
+46,What was the per capita spending on welfare programs in Austria in 2014?,tps00099
+47,How many diesel-powered road tractors were there in 2007?,road_eqs_roaene_h
+48,How much inbound cargo did the European Union’s main harbors handle in the third quarter of 2023?,mar_qg_qm_ewhd
+49,"In 2016, what fraction of children under six lacked showering facilities in the United Kingdom?",ilc_mdho02c
+50,What proportion of the population from Morocco was linked to urban sewage networks in 2011?,med_en47
+51,"In 2010, what was the net international investment balance, excluding non-repayable instruments, as a share of GDP in Malta?",tipsii50
+52,What was the volume of passenger rail transport on the Holstebro - Struer route in Denmark in 2010?,rail_tf_ns10_dk
+53,How many unladen containers were processed at the harbor of Bilbao in 2020?,mar_mg_am_pvh
+54,What was the fraction of Algerian women aged 15 to 64 involved in economic activities in 2008?,med_ps412
+55,What was the index of commercial transaction volume in Ukraine in 2018?,enpe_sts_trtu
+56,How many inland navigation firms in France operated a single boat in 2000?,iww_ec_ent_n
+57,What proportion of individuals in Icelandic cities considered themselves to be poor in 2010?,ilc_sbjp05
+58,What was the crude fertility rate in Liechtenstein for 2022?,tps00204
+59,"What percentage of garbage, excluding large minerals, was recycled in Poland in 2016?",cei_wm010
+60,"In 2021, what proportion of businesses experienced a drop in revenue of at least 10% due to the impact of COVID-19 in Bulgaria?",iss_21covt
+61,"In 2022, how much of the total greenhouse gas emissions originated from farming in Luxembourg?",tai08
+62,What was the real effective exchange rate for Portugal in February 2024?,teimf250
+63,"In 2021, what portion of the GDP was allocated to credit flow for private organizations that are not involved in finance in Slovakia?",tipspc25
+64,What was the total weight of garbage produced by family units in Hungary in 2004?,ten00110
+65,"In 2018, what was the ratio of students to educators and teaching assistants in primary education in Iceland?",educ_uoe_perp05
+66,"In Belgium in 2015, what proportion of workers aged 25 to 64 received consistent feedback from their managers?",qoe_ewcs_7b2
+67,What was the poverty threshold for a single-person household in Cyprus in 2015?,tespm020
+68,What was the volume of national cargo transportation by road in Lithuania in 2008?,road_tert_go
+69,What percentage of women aged 18 to 29 in Estonia were victims of domestic abuse in 2021?,gbv_dv_age
+70,What was the weight of commodities transported in Czechia during the last quarter of 2021?,rail_go_quartal
+71,"In 2020, what was the median rate of savings among people in employment in Bulgaria, as a percentage of available revenue?",icw_sr_15
+72,What was the value of agriculture-related production at basic price in Portugal in 2023?,tag00102
+73,How many trams were in operation in the United Kingdom in 1992?,road_eqs_trams
+74,"In 2007, what fraction of Dutch people aged 25 to 64 received information about educational prospects through their family members?",trng_aes_187
+75,What was the volume of road cabotage transport in Finland for 1992?,road_go_ca_d_c
+76,How many community designs were submitted in Hungary in 2010?,ipr_dfa_tot
+77,"In 2017, what was the rate of women that aborted in Georgia?",demo_fabortind
+78,What was the volume of train passenger travel in Algeria during 2018?,med_ra5
+79,"What area did olive groves, with more than 400 trees per hectare, cover in Italy in 2017?",orch_olives3
+80,What fraction of women who experienced abuse were aware of free legal support in Montenegro during 2021?,gbv_awr_leg
+81,"In 2015, what was the length of airstrips in Jordan for those longer than 2,438 meters?",med_air2
+82,What was the volume of passenger rail transport on the Cheb - Beroun route in 2015?,rail_tf_ns15_cz
+83,How many people died in Belgium in 2021?,tps00029
+84,"In 2016, what percentage of residents in the United Kingdom reported crime, violence, or vandalism in their neighborhood?",sdg_16_20
+85,What was the birth rate in Greece in 2015?,enps_demo_frate1
+86,"In the Netherlands in 2021, what fraction of women who suffered abuse from a romantic partner held a higher education degree?",gbv_ipv_ed
+87,"In 2008, how many new freight transport vehicles were registered in Morocco?",med_rd5
+88,What percentage of the population in Spain had an access to the Internet every day in 2023?,tin00092
+89,"In 2006 in Sweden, what was the revenue of advertisement for clients living in another EU country?",bs_bs4_06
+90,What was the average age of women at the time of their first matrimonial union in Egypt in 2008?,med_ps12
+91,"In 2008, what proportion of women completed the ISCED 1 level in Morocco?",enps_educ_comprate
+92,What was the number of single-design community design applications in Canada during 2011?,ipr_da_typ
+93,What proportion of Romanian natural habitats were affected by dry spells in 2003?,sdg_15_42
+94,"In 1993, how many offenses did the Polish law enforcement authorities register?",crim_hist
+95,What is the proportion of value added in Latvia supported by EU exports in 2021?,egi_va2
+96,How many foreign visitors stayed in hotels in Armenia in 2022?,enpe_tour_occ_arnat
+97,What was the daily delivery capacity of pipelines managed in Bulgaria in 2023?,pipe_if_capac
+98,"In March 2024, how many people traveled internationally by air from Norway?",ttr00016
+99,What percentage of the population in France was aged 15 to 24 in 2021?,eq_pop03
