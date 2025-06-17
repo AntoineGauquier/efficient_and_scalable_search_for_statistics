@@ -8,21 +8,26 @@ TBD
 
 ## Datasets
 
-The two datasets ![D_l](https://latex.codecogs.com/svg.image?\mathcal{D}_{\ell}) and ![D_f](https://latex.codecogs.com/svg.image?\mathcal{D}_{f}) can be downloaded from [this Zenodo dataset](https://doi.org/10.5281/zenodo.15681384).
+The two datasets (the one with 2000 lightest tables and the full dataset) can be downloaded from [this Zenodo dataset](https://doi.org/10.5281/zenodo.15681384).
 
 ## Evaluation Questions
 
 We provide the two sets of evaluation questions we present in the paper, as CSV files:
-- [S_i.csv](S_i.csv) corresponds to the question set ![S_i](https://latex.codecogs.com/svg.image?\mathcal{S}_{i})
-- [S_r.csv](S_r.csv) corresponds to the question set ![S_r](https://latex.codecogs.com/svg.image?\mathcal{S}_{r})
+- [S_i.csv](S_i.csv) corresponds to the initial question set.
+- [S_r.csv](S_r.csv) corresponds to the reformulated question set.
 
 Each file has three columns: on for the ID of the question (`question_id`), one for the textual question (`question`), and one for the associated table ID (`table_id`).
 
-## Systems Outputs
+## System Outputs
 
-We provide all top-N table IDs that each model returned for both datasets and questions sets (except for Solo and Birdie on ![D_l](https://latex.codecogs.com/svg.image?\mathcal{D}_{\ell})) in the directory [systems_outputs](systems_outputs), under which are one sub-directory per system:
-- [Birdie](systems_outputs/birdie), with outputs only on ![D_l](https://latex.codecogs.com/svg.image?\mathcal{D}_{\ell}) for ![S_i](https://latex.codecogs.com/svg.image?\mathcal{S}_{i}) ([birdie-D_l-S_i.csv](systems_outputs/birdie/birdie-D_l-S_i.csv)) and for ![S_r](https://latex.codecogs.com/svg.image?\mathcal{S}_{r}) ([birdie-D_l-S_r.csv](systems_outputs/birdie/birdie-D_l-S_r.scv)).
-- [BM25](systems_outputs/bm25), with outputs on ![D_l](https://latex.codecogs.com/svg.image?\mathcal{D}_{\ell}) for ![S_i](https://latex.codecogs.com/svg.image?\mathcal{S}_{i}) ([birdie-D_l-S_i.csv](systems_outputs/birdie/birdie-D_l-S_i.csv)) and ![S_r](https://latex.codecogs.com/svg.image?\mathcal{S}_{r}) ([birdie-D_l-S_r.csv](systems_outputs/birdie/birdie-D_l-S_r.scv)); and on ![D_f](https://latex.codecogs.com/svg.image?\mathcal{D}_{f}) for ![S_i](https://latex.codecogs.com/svg.image?\mathcal{S}_{i}) ([bm25-D_f-S_i.csv](systems_outputs/bm25/bm25-D_f-S-i.csv)) and ![S_r](https://latex.codecogs.com/svg.image?\mathcal{S}_{r}) ([birdie-D_f-S_r.csv](systems_outputs/birdie/birdie-D_f-S_r.scv)).
+We provide the top-N table IDs returned by each system (excluding Solo and Birdie, which could not be indexed on the full dataset) for both datasets and both question sets. These outputs are located in the [systems_outputs](systems_outputs) directory, which contains a subdirectory for each system.
 
-
+| System          | (Small Dataset, Initial Q. Set) Questions                                | (Small Dataset, Reformulated Q. Set) Questions                              | (Full Dataset, Initial Q. Set)                                  | (Full Dataset, Reformulated Q. Set)                              |
+|-----------------|-----------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|
+| Birdie          | [birdie-D_l-S_i.csv](systems_outputs/birdie/birdie-D_l-S_i.csv) | [birdie-D_l-S_r.csv](systems_outputs/birdie/birdie-D_l-S_r.csv)  | N/A                                                             | N/A                                                             |
+| BM25            | [bm25-D_l-S_i.csv](systems_outputs/bm25/bm25-D_l-S_i.csv)       | [bm25-D_l-S_r.csv](systems_outputs/bm25/bm25-D_l-S_r.csv)        | [bm25-D_f-S_i.csv](systems_outputs/bm25/bm25-D_f-S_i.csv)       | [bm25-D_f-S_r.csv](systems_outputs/bm25/bm25-D_f-S_r.csv)       |
+| Pneuma          | [pneuma-D_l-S_i.csv](systems_outputs/pneuma/pneuma-D_l-S_i.csv) | [pneuma-D_l-S_r.csv](systems_outputs/pneuma/pneuma-D_l-S_r.csv)  | [pneuma-D_f-S_i.csv](systems_outputs/pneuma/pneuma-D_f-S_i.csv) | [pneuma-D_f-S_r.csv](systems_outputs/pneuma/pneuma-D_f-S_r.csv) |
+| Solo            | [solo-D_l-S_i.csv](systems_outputs/solo/solo-D_l-S_i.csv)       | [solo-D_l-S_r.csv](systems_outputs/solo/solo-D_l-S_r.csv)        | N/A                                                             | N/A                                                             |
+| STAR with PEARL | [star_pearl-D_l-S_i.csv](systems_outputs/star_pearl/star_pearl-D_l-S_i.csv) | [star_pearl-D_l-S_r.csv](systems_outputs/star_pearl/star_pearl-D_l-S_r.csv) | [star_pearl-D_f-S_i.csv](systems_outputs/star_pearl/star_pearl-D_f-S_i.csv) | [star_pearl-D_f-S_r.csv](systems_outputs/star_pearl/star_pearl-D_f-S_r.csv) |
+| STAR with SBERT | [star_sbert-D_l-S_i.csv](systems_outputs/star_sbert/star_sbert-D_l-S_i.csv) | [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv) | [star_sbert-D_f-S_i.csv](systems_outputs/star_sbert/star_sbert-D_f-S_i.csv) | [star_sbert-D_f-S_r.csv](systems_outputs/star_sbert/star_sbert-D_f-S_r.csv) |
 
