@@ -35,7 +35,7 @@ Each of these CSV files has one column for the question ID (`question_id`), and 
 
 ## Annotations
 
-We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified. This CSV file contains one column for question ID (`question_id`), one for table ID (`table_id`), and one for the label (`label`): either *highly relevant*, *relevant* or *not_relevant*.
+We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified. This CSV file contains one column for the pair id (`pair_id`), one for question ID (`question_id`), one for table ID (`table_id`), and one for the label (`label`): either *highly relevant*, *relevant* or *not_relevant*.
 
 ## Metrics Re-Generation
 
