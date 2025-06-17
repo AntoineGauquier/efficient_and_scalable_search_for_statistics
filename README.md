@@ -35,7 +35,7 @@ We provide the top-N table IDs returned by each system (excluding Solo and Birdi
 
 We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified.
 
-## Scores Re-Generation
+## Scores Re-Generation
 
 We provide two scripts to re-compute both metrics scores:
 - [compute_HitRate_scores.py](compute_HitRate_scores.py) computes the HitRate@k metric for k from 1 to 10. It can be used in CLI by running `python3 compute_HitRate_scores.py <question_set_path> <system_output_path>`, where `question_set_path` is either [S_i.csv](S_i.csv) or [S_r.csv](S_r.csv), and `system_output_path` is the file containing the search outputs to be evaluated (for instance [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv)).
