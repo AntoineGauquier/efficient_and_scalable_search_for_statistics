@@ -2,7 +2,6 @@ import csv, os, sys
 
 def compute_HitRate_scores(question_set_path, system_output_path):
     ground_truths = {}
-
     with open(question_set_path, 'r', newline='') as f_r:
         reader = csv.DictReader(f_r)
         for row in reader:
