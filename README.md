@@ -31,9 +31,11 @@ We provide the top-N table IDs returned by each system (excluding Solo and Birdi
 | STAR with PEARL | [star_pearl-D_l-S_i.csv](systems_outputs/star_pearl/star_pearl-D_l-S_i.csv) | [star_pearl-D_l-S_r.csv](systems_outputs/star_pearl/star_pearl-D_l-S_r.csv) | [star_pearl-D_f-S_i.csv](systems_outputs/star_pearl/star_pearl-D_f-S_i.csv) | [star_pearl-D_f-S_r.csv](systems_outputs/star_pearl/star_pearl-D_f-S_r.csv) |
 | STAR with SBERT | [star_sbert-D_l-S_i.csv](systems_outputs/star_sbert/star_sbert-D_l-S_i.csv) | [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv) | [star_sbert-D_f-S_i.csv](systems_outputs/star_sbert/star_sbert-D_f-S_i.csv) | [star_sbert-D_f-S_r.csv](systems_outputs/star_sbert/star_sbert-D_f-S_r.csv) |
 
+Each of these CSV files has one column for the question ID (`question_id`), and 10 columns for the top-10 ranked tables (`table_id_rank_1`, `table_id_rank_2`, etc. up to `table_id_rank_10`). When some systems do not provide 10 tables, we let missing cells blank. 
+
 ## Annotations
 
-We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified.
+We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified. This CSV file contains one column for question ID (`question_id`), one for table ID (`table_id`), and one for the label (`label`): either *highly relevant*, *relevant* or *not_relevant*.
 
 ## Metrics Re-Generation
 
