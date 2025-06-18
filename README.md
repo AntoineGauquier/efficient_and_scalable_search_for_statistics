@@ -38,7 +38,7 @@ Each of these CSV files has one column for the question ID (`question_id`), and 
 
 We provide the manually annotated (question, table) pairs used to compute Relevance@k scores ([annotations.csv](annotations.csv)). We purposely included duplicates so that inter-annotator agreement can be verified. This CSV file contains one column for the pair id (`pair_id`), one for question ID (`question_id`), one for table ID (`table_id`), and one for the label (`label`): either *highly relevant*, *relevant* or *not_relevant*.
 
-## Metrics Re-Generation
+## Metrics Computation
 
 We provide two scripts to re-compute both metrics:
 - [compute_HitRate_scores.py](compute_HitRate_scores.py) computes the HitRate@k metric for k from 1 to 10. It can be used in CLI by running `python3 compute_HitRate_scores.py <question_set_path> <system_output_path>`, where `question_set_path` is either [S_i.csv](S_i.csv) or [S_r.csv](S_r.csv), and `system_output_path` is the file containing the search outputs to be evaluated (for instance [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv)).
