@@ -4,7 +4,7 @@ This repository provides supplementary material for the research article *Effici
 
 ## Code
 
-TBD
+All the code used for this work is free of IP constraints; however, we are now finalizing its separation from a front-end that we are transferring to RadioFrance which co-funded its development (https://sourcessay.inria.fr/?s=StatCheck). The code will be available once it is done, and at the latest by September 2025.
 
 ## Datasets
 
