@@ -1,6 +1,6 @@
 # Efficient And Scalable Search For Statistics
 
-This repository provides supplementary material for the research article *Efficient And Scalable Search For Statistics*. 
+This repository provides supplementary material for the research article *Efficient And Scalable Search For Statistics*.
 
 ## Code
 
@@ -8,15 +8,16 @@ All the code used for this work is free of IP constraints; however, we are now f
 
 ## Datasets
 
-The two datasets (the one with 2000 lightest tables and the full dataset) can be downloaded from [this Zenodo dataset](https://doi.org/10.5281/zenodo.15681384).
+The two datasets (the one with 2000 lightest tables and the full dataset)
+can be downloaded  [from Zenodo](https://doi.org/10.5281/zenodo.15681384) as a gzipped TAR archive of CSV files.
 
 ## Evaluation Questions
 
 We provide the two sets of evaluation questions we present in the paper, as CSV files:
-- [S_i.csv](S_i.csv) corresponds to the initial question set.
+- [S_i.csv](S_i.csv) corresponds to the initial question set;
 - [S_r.csv](S_r.csv) corresponds to the reformulated question set.
 
-Each file has three columns: on for the ID of the question (`question_id`), one for the textual question (`question`), and one for the associated table ID (`table_id`).
+Each file has three columns: one for the ID of the question (`question_id`), one for the textual question (`question`), and one for the associated table ID (`table_id`).
 
 ## Systems Outputs
 
@@ -31,7 +32,7 @@ We provide the top-N table IDs returned by each system (excluding Solo and Birdi
 | STAR with PEARL | [star_pearl-D_l-S_i.csv](systems_outputs/star_pearl/star_pearl-D_l-S_i.csv) | [star_pearl-D_l-S_r.csv](systems_outputs/star_pearl/star_pearl-D_l-S_r.csv) | [star_pearl-D_f-S_i.csv](systems_outputs/star_pearl/star_pearl-D_f-S_i.csv) | [star_pearl-D_f-S_r.csv](systems_outputs/star_pearl/star_pearl-D_f-S_r.csv) |
 | STAR with SBERT | [star_sbert-D_l-S_i.csv](systems_outputs/star_sbert/star_sbert-D_l-S_i.csv) | [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv) | [star_sbert-D_f-S_i.csv](systems_outputs/star_sbert/star_sbert-D_f-S_i.csv) | [star_sbert-D_f-S_r.csv](systems_outputs/star_sbert/star_sbert-D_f-S_r.csv) |
 
-Each of these CSV files has one column for the question ID (`question_id`), and 10 columns for the top-10 ranked tables (`table_id_rank_1`, `table_id_rank_2`, etc. up to `table_id_rank_10`). When some systems do not provide 10 tables, we let missing cells blank. 
+Each of these CSV files has one column for the question ID (`question_id`), and 10 columns for the top-10 ranked tables (`table_id_rank_1`, `table_id_rank_2`, etc. up to `table_id_rank_10`). When some systems do not provide 10 tables, we let missing cells blank.
 
 ## Annotations
 
