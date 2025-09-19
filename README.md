@@ -4,7 +4,7 @@ This repository provides supplementary material for the research article *Effici
 
 ## Code
 
-All the code used for this work is free of IP constraints; however, we are now finalizing its separation from a front-end that we are transferring to RadioFrance which co-funded its development (https://sourcessay.inria.fr/?s=StatCheck). The code will be available once it is done, and at the latest by September 2025.
+The code of STAR is available [in this Inria Gitlab repository](https://gitlab.inria.fr/cedar/star-statcheck).
 
 ## Datasets
 
@@ -44,3 +44,14 @@ We provide the manually annotated (question, table) pairs used to compute Releva
 We provide two scripts to re-compute both metrics:
 - [compute_HitRate_scores.py](compute_HitRate_scores.py) computes the HitRate@k metric for k from 1 to 10. It can be used in CLI by running `python3 compute_HitRate_scores.py <question_set_path> <system_output_path>`, where `question_set_path` is either [S_i.csv](S_i.csv) or [S_r.csv](S_r.csv), and `system_output_path` is the file containing the search outputs to be evaluated (for instance [star_sbert-D_l-S_r.csv](systems_outputs/star_sbert/star_sbert-D_l-S_r.csv)).
 - [compute_Relevance_scores.py](compute_Relevance_scores.py) computes the Relevance@k metric for k from 1 to 5. It can be used in CLI by running `python3 compute_Relevance_scores.py <annotations_path> <system_output_path>`, where `annotations_path` is basically [annotations.csv](annotations.csv), and `system_output_path` exactly as for [compute_HitRate_scores.py](compute_HitRate_scores.py).
+
+## Supplementary Plots
+
+Supplementary plots are available in the [supplementary_plots](supplementary_plots) directory.  
+These plots show the mean Relevance@5 scores as a function of question length (measured in number of words) for each system. Scores are averaged across both questions and datasets, resulting in two curves:
+
+- one for the original question set  
+- one for the reformulated question set  
+
+The plots highlight that STAR with PEARL does not suffer from longer questions, as the trend is comparable to that observed in other systems.
+
