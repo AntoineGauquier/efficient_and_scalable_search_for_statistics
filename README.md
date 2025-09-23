@@ -2,6 +2,10 @@
 
 This repository provides supplementary material for the research article *Efficient And Scalable Search For Statistics*.
 
+## Extended Version
+
+[extended_version.pdf](extended_version.pdf) is an extended version of the research article *Efficient And Scalable Search For Statistics*, with supplementary discussions and plots about the baselines, results, and related work.
+
 ## Code
 
 The code of STAR is available [in this Inria Gitlab repository](https://gitlab.inria.fr/cedar/star-statcheck).
